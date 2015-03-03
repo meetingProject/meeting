@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:weightSum="1"
+                                android:background="#ffff8c00">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사   진   등   록"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:gravity="center_horizontal"
+            android:textColor="#fffdfdfd" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_weight="0.65"
+                android:layout_width="284dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                android:adjustViewBounds="true">
+
+            </ImageView>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_pictureButton"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="사진 가져오기"
+            android:onClick="onClick"
+            android:textSize="25sp"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_gotoLogin"
+            android:text="완       료"
+            android:textSize="25sp"
+            android:onClick="onClick"/>
+    </LinearLayout>
+</LinearLayout>

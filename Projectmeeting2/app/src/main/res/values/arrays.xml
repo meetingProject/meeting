@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "prompt_title">인원을 고르세요</string>
+    <string-array name = "member_numbers">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
